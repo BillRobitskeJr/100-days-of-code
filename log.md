@@ -40,3 +40,14 @@ freeCodeCamp.
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
 2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
+
+### Day 3: December 31, Saturday
+
+**Today's Progress**: Continued work on task planning/logging app.  The Add Activity button now actually does something, and the "selected date" is automatically set to the current day when loaded.  Also added table column spacing.
+
+**Thoughts**: I think I'm done with Bootstrap on this project -- I'm just not getting the look I'm picturing for the app.  I have in mind a digital replacement for a paper planner, but this just looks like I mess of Bootstrap text boxes...
+
+**Link(s) to work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
+2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
