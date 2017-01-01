@@ -51,3 +51,14 @@ freeCodeCamp.
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
 2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
+
+### Day 4: January 1, Sunday
+
+**Today's Progress**: Began implementing the interface using CSS flex box for the columns; removed Bootstrap.  Using Unicode character entities for the task progress fill-in circles.  The daily activity log needs some work - tried mocking it up with a table, but it's a bit of a mess.
+
+**Thoughts**: Columns look good on desktop and my iPad in landscape orientation, but they're too narrow on my iPhone.  The text is also unreadable, since it scales with the viewport width.
+
+**Link(s) to work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
+2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
