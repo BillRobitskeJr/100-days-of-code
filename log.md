@@ -1,24 +1,5 @@
 # 100 Days Of Code - Log
 
-<!--### Day 0: February 30, 2016 (Example 1)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts:** I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link to work:** [Calculator App](http://www.example.com)
-
-### Day 0: February 30, 2016 (Example 2)
-##### (delete me or comment me out)
-
-**Today's Progress**: Fixed CSS, worked on canvas functionality for the app.
-
-**Thoughts**: I really struggled with CSS, but, overall, I feel like I am slowly getting better at it. Canvas is still new for me, but I managed to figure out some basic functionality.
-
-**Link(s) to work**: [Calculator App](http://www.example.com)-->
-
-
 ### Day 1: December 29, Thursday
 
 **Today's Progress**: Completed the Basic Algorithm Scripting challenges on
@@ -57,6 +38,17 @@ freeCodeCamp.
 **Today's Progress**: Began implementing the interface using CSS flex box for the columns; removed Bootstrap.  Using Unicode character entities for the task progress fill-in circles.  The daily activity log needs some work - tried mocking it up with a table, but it's a bit of a mess.
 
 **Thoughts**: Columns look good on desktop and my iPad in landscape orientation, but they're too narrow on my iPhone.  The text is also unreadable, since it scales with the viewport width.
+
+**Link(s) to work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
+2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
+
+### Day 5: January 2, Monday
+
+**Today's Progress**: Created a `<circle-tally>` element for the tally control in the Daily Tasks column.  It shows filled circles for the first five tallies, and then increments an additional tally count after that point.  Circles are displayed via Unicode characters in the `::before` pseudo-class's content -- switched with the addition or removal of the `is-filled` class on `<span>` elements.
+
+**Thoughts**: Went back to using Atom as my editor; it's easier to access from the Window's GitHub client.  Also, collected the default browser window dimensions in Safari on my iPhone 7 and Chrome on my iPad Pro.  Both always have a width of 980, but varying heights.  Hopefully, I'll be able to use that to control whether or not to display the app with columns.  I only want columns to appear on landscape tablets and on desktop.
 
 **Link(s) to work**
 
