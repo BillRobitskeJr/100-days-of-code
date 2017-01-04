@@ -54,3 +54,14 @@ freeCodeCamp.
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
 2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
+
+### Day 6: January 3, Tuesday
+
+**Today's Progress**: Created `<rating-scale>`, `<app-daily-tasks>`, and `<daily-task>` elements to build out the Daily Tasks view.
+
+**Thoughts**: Bring on the Polymer!  I did think I was going crazy for a bit due to a bug in `<circle-tally>`.  In `<daily-task>`, I have the same tally count bound to both the progress `<circle-tally>` element and the actual length `<input>`.  Since input only gives back a string value (even when it's bound to a Number property), `<circle-tally>` was adding 1 to the current value as a string rather than a number.  For example, if you set the value via the actual length to 1 and then click on `<circle-tally>`, the value became 11 instead of 2.  Oops!  It was a simple fix, but Chrome decided to continue using the previously loaded, cached copy and wasn't reflecting the change.  LOL
+
+**Link(s) to work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
+2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
