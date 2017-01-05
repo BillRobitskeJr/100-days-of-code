@@ -65,3 +65,14 @@ freeCodeCamp.
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
 2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
+
+### Day 7: January 4, Wednesday
+
+**Today's Progress**: Created a simple Pomodoro timer on codepen.io using `transform: scaleX()` and `transform-origin` to handle the animation of the timer bar.  Unfortunately, I coded it badly, so it pauses when it doesn't have focus.  Oops.
+
+**Thoughts**: Be careful when using Javascript `alert`s for testing feedback.  When you forget to stop the timer when it reaches 0 and have it display an alert each cycle that when it reaches 0... well, you're gonna have a bad time.
+
+**Link(s) to work**
+
+1. [Pomodoro Timer](http://codepen.io/billrobitskejr/pen/xgbRxa)
+2. [Pomodoro Timer](http://s.codepen.io/billrobitskejr/debug/xgbRxa) - "Debug Mode" without the codepen.io interface
