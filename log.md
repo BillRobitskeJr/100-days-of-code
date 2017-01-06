@@ -76,3 +76,13 @@ freeCodeCamp.
 
 1. [Pomodoro Timer](http://codepen.io/billrobitskejr/pen/xgbRxa)
 2. [Pomodoro Timer](http://s.codepen.io/billrobitskejr/debug/xgbRxa) - "Debug Mode" without the codepen.io interface
+
+### Day 8: January 5, Thursday
+
+**Today's Progress**: Worked on converting yesterday's Pomodoro timer over to functional programming.  It doesn't yet work (I deleted the variables, which broken yesterday's version), but it was interesting viewing the problem from a different angle.
+
+**Thoughts**: Enough goofing around, Bill!  Get back to work on Lasagna tomorrow!  Also, codepen.io is kind of a pain to use if you have any real amount of code.  The windows are just too narrow.
+
+**Link(s) to work**
+
+1. [Pomodoro Timer](http://codepen.io/billrobitskejr/pen/xgbRxa)
