@@ -86,3 +86,14 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [Pomodoro Timer](http://codepen.io/billrobitskejr/pen/xgbRxa)
+
+### Day 9: January 6, Friday
+
+**Today's Progress**: Started rebuilding (again) the past two days' Pomodoro timer in on GitHub in ES6 and functional programming.  The functional programming - or at least the arrow functions - are not going the way I hoped.  I was able to get an ES6 build stack set up and have the project self-hosting on GitHub.
+
+**Thoughts**: I thought that arrow functions would directly translate to lambda functions, but Javascript is still Javascript.  I at least learned how to use GitHub pages and gulp/babel/ESLint/Webpack.
+
+**Link(s) to work**
+
+1. [Pomodoro Timer](https://billrobitskejr.github.io/pomodoro-timer/) GitHub Pages hosted version
+2. [Pomodoro Timer](https://github.com/BillRobitskeJr/pomodoro-timer) GitHub repository
