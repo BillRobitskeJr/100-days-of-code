@@ -97,3 +97,14 @@ freeCodeCamp.
 
 1. [Pomodoro Timer](https://billrobitskejr.github.io/pomodoro-timer/) GitHub Pages hosted version
 2. [Pomodoro Timer](https://github.com/BillRobitskeJr/pomodoro-timer) GitHub repository
+
+### Day 10: January 7, Saturday
+
+**Today's Progress**: Returned to the planner app - began work on `<app-daily-log>` in layout out the hour/quarter-hour lined layout.
+
+**Thoughts**: I have the layout, and it's using `rem` sizing.  May vision is to have the activities overlayed on this with some transparency, with their positions calculated against the size of today's layout work.
+
+**Link(s) to work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
+2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
