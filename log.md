@@ -108,3 +108,13 @@ freeCodeCamp.
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com/)
 2. [Lasagna GitHub](https://github.com/DigitalMugen/lasagna)
+
+### Day 11: January 9, Monday
+
+**Today's Progress**: Completed the first eight of the Intermediate Algorithm Scripting challenges on freeCodeCamp using functional programming.
+
+**Thoughts**: Kind of a slow start back up after missing yesterday.  The Roman Numeral conversion algorithm felt like it took much longer than it should.
+
+**Link(s) to work**
+
+1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/10 due to time zones.
