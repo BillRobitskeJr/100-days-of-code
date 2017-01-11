@@ -118,3 +118,13 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/10 due to time zones.
+
+### Day 12: January 10, Tuesday
+
+**Today's Progress**: Completed the next seven of the Intermediate Algorithm Scripting challenges on freeCodeCamp using functional programming.
+
+**Thoughts**: I think I may be abusing arrays...
+
+**Link(s) to work**
+
+1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/11 due to time zones.
