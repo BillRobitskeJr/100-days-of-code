@@ -128,3 +128,13 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/11 due to time zones.
+
+### Day 13: January 11, Wednesday
+
+**Today's Progress**: Completed the next three of the Intermediate Algorithm Scripting challenges on freeCodeCamp using functional programming.
+
+**Thoughts**: The Least Common Multiple challenge took over an hour on its own due to me effectively trying to brute force it.  After writing various means of determining the multiple, only to find they required to many recursion iterations, I discovered that it can be determined via the Greatest Common Denominator -- which can be calculated via the [Euclidean algorithm](https://en.wikipedia.org/wiki/Euclidean_algorithm).  Read-search--what comes after search?  ;)
+
+**Link(s) to work**
+
+1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/12 due to time zones.
