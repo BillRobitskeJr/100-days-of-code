@@ -138,3 +138,13 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/12 due to time zones.
+
+### Day 14: January 12, Thursday
+
+**Today's Progress**: Finished up the Intermediate Algorithm Scripting challenges on freeCodeCamp - all with functional programming!
+
+**Thoughts**: Especially after last night's work, I'm finding functional programming forces me to be a more efficient with my code.  The Least Common Multiple problem would have been easily solvable with my brute force methods if I were using for loops, but having to be mindful of my recursion depth means I had to limit how many cycles the solution took.  End result, a far faster solution than I could have left with otherwise.
+
+**Link(s) to work**
+
+1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/13 due to time zones.
