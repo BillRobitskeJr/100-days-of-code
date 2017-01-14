@@ -159,3 +159,14 @@ freeCodeCamp.
 
 1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/13 due to time zones.
 2. [Calculator](https://github.com/BillRobitskeJr/fcc-calculator) on GitHub
+
+### Day 16: January 14, Saturday
+
+**Today's Progress**: Finished build stack and constructed basic layout for the Calculator project.  Got it serving from GitHub.
+
+**Thoughts**: #FlexboxIsAwesome
+
+**Link(s) to work**
+
+1. [Calculator](https://billrobitskejr.github.io/fcc-calculator/)
+2. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
