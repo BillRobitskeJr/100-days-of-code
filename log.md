@@ -148,3 +148,14 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/13 due to time zones.
+
+### Day 15: January 13, Friday
+
+**Today's Progress**: Completed a few of the freeCodeCamp Advanced Algorithm Scripting challenges.  Starting a GitHub project for the "Build a JavaScript Calculator" project--even though it will need to move to codepen.io for submission.
+
+**Thoughts**: Setting up an ES6 environment such as that for the Pomodoro timer app.  I'll have to wait and see how well it works when copied to codepen.io.
+
+**Link(s) to work**
+
+1. [freeCodeCamp Profile](https://www.freecodecamp.com/billrobitskejr) -- Shows completion of challenges, although they show up as 1/13 due to time zones.
+2. [Calculator](https://github.com/BillRobitskeJr/fcc-calculator) on GitHub
