@@ -170,3 +170,14 @@ freeCodeCamp.
 
 1. [Calculator](https://billrobitskejr.github.io/fcc-calculator/)
 2. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
+
+### Day 17: January 15, Sunday
+
+**Today's Progress**: Implemented digit buttons on the calculator project app.
+
+**Thoughts**: Caching is really annoying sometimes - I find that something isn't working, and then spend the next 5 minutes figuring out that its not pulling the new copy of the code that's clearly there.
+
+**Link(s) to work**
+
+1. [Calculator](https://billrobitskejr.github.io/fcc-calculator/)
+2. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
