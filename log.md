@@ -181,3 +181,14 @@ freeCodeCamp.
 
 1. [Calculator](https://billrobitskejr.github.io/fcc-calculator/)
 2. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
+
+### Day 18: January 16, Monday
+
+**Today's Progress**: Began working on calculator operations, implementing them as pure static functions.  Created a separate Calculator class to house the calculator's mutable state -- its current number buffer value and the last operations applied.
+
+**Thoughts**: Calculator is not pure functional programming, but I suppose neither was the `textContent` implementation from yesterday.  Hopefully, with some practice on this project (or a future one), I can rectify that.  In the mean time, "a working solution is a valid solution."
+
+**Link(s) to work**
+
+1. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
+2. [Calculator Repository - 'basic-operations' Branch](https://github.com/BillRobitskeJr/fcc-calculator/tree/basic-operations)
