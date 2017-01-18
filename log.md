@@ -192,3 +192,14 @@ freeCodeCamp.
 
 1. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
 2. [Calculator Repository - 'basic-operations' Branch](https://github.com/BillRobitskeJr/fcc-calculator/tree/basic-operations)
+
+### Day 19: January 17, Tuesday
+
+**Today's Progress**: Completed the Calculator app, at least with basic operations.  There's no additive inverse operation, but your typical add, subtract, multiply, and divide.  It works well enough for simple arithmetic.
+
+**Thoughts**: Like a basic calculator, order of operations is not considered/respected.  That burden is placed on the user; you need to enter operations in the order you want them calculated.  To do more, I'll have to implement some form of operation tree that is built out, and then fully computed when equals is pressed (rather than resolving each operation when the next operation is pressed).
+
+**Link(s) to work**
+
+1. [Calculator](https://billrobitskejr.github.io/fcc-calculator/)
+2. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
