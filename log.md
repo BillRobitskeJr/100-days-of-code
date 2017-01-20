@@ -203,3 +203,14 @@ freeCodeCamp.
 
 1. [Calculator](https://billrobitskejr.github.io/fcc-calculator/)
 2. [Calculator Repository](https://github.com/BillRobitskeJr/fcc-calculator)
+
+### Day 20: January 19, Thursday
+
+**Today's Progress**: Started a little side project to implement various mechanics of the Pathfinder Roleplaying Game system via ES6 modules.  For tonight, it was the "Armor as Damage Reduction" rules from Ultimate Combat.
+
+**Thoughts**: No more slack days, Bill!  (at least until after Day 28)
+
+**Link(s) to work**
+
+1. [Trail Spotter repository](https://github.com/DigitalMugen/trail-spotter)
+2. [Trail Spotter repository - 'armor-as-damage-reduction' Branch](https://github.com/DigitalMugen/trail-spotter/tree/armor-as-damage-reduction)
