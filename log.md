@@ -214,3 +214,13 @@ freeCodeCamp.
 
 1. [Trail Spotter repository](https://github.com/DigitalMugen/trail-spotter)
 2. [Trail Spotter repository - 'armor-as-damage-reduction' Branch](https://github.com/DigitalMugen/trail-spotter/tree/armor-as-damage-reduction)
+
+### Day 21: January 20, Friday
+
+**Today's Progress**: Started a project for a nation-building idler game.  The time was pretty much all spent setting up the build stack - and trying to decide how I wanted the stack set up.
+
+**Thoughts**: The idea is to make my own take on the AdVenture Communist model - you have different resources that are interdependent.  The difference with my idea is to have a finite limit on some resources - land, for example.  You cannot just endlessly generate more land; you simply claim land from a pot that was originally full.  When the pot's empty, you'll have to get land from somewhere else.  Ideally, the game will be multiplayer, with everyone pulling from the same total pool.  Then you can compete with other nations over those finite resources.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
