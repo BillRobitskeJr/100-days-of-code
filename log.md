@@ -224,3 +224,23 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+
+### Day 22: January 21, Saturday
+
+**Today's Progress**: Began work on the population module for the nation-building game.
+
+**Thoughts**: I'm doing good at putting the work in on a project, but I'm starting to slip at actually updating my log.  Need to work on that.  I am mis-learning plenty about the impacts (or lack thereof) of hunger, overcrowding, undercrowding, etc. on population growth.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+
+### Day 23: January 23, Sunday
+
+**Today's Progress**: Continued work on the population model for the nation-building game.
+
+**Thoughts**: I think I have the impact of hunger on the birth and death rates down balanced out.  Population grows and then reaches a relatively stable point.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
