@@ -244,3 +244,14 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+
+### Day 24: January 24, Monday
+
+**Today's Progress**: Implemented population density's impact on birth and death rates.  Also created a demo page to simulate population growth, and changed calculations to use continuous population growth.
+
+**Thoughts**: The birth and death rates get a bit crazy - 50% birth and death rates?!  Holy cow!  On the plus side, now that those rates are calculated as the "annual rate" and then calculates the actual population growth by continuous growth, I can actually compare the values it's coming up with to reality.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
