@@ -255,3 +255,14 @@ freeCodeCamp.
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
 2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
+
+### Day 25: January 25, Tuesday
+
+**Today's Progress**: "Finished" the population model.  Birth rates and death rates are no longer quite so crazy, and the population growth rates stay somewhat in the realm of believability.
+
+**Thoughts**: I'm still surprised that population can grow to the point where the percent of the population going hungry is over 95%.  I suppose that people would be suffering from malnutrition as a whole rather than part having enough to eat and the rest absolutely starving.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
