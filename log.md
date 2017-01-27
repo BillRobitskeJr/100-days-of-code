@@ -235,7 +235,7 @@ freeCodeCamp.
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
 
-### Day 23: January 23, Sunday
+### Day 23: January 22, Sunday
 
 **Today's Progress**: Continued work on the population model for the nation-building game.
 
@@ -245,7 +245,7 @@ freeCodeCamp.
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
 
-### Day 24: January 24, Monday
+### Day 24: January 23, Monday
 
 **Today's Progress**: Implemented population density's impact on birth and death rates.  Also created a demo page to simulate population growth, and changed calculations to use continuous population growth.
 
@@ -256,7 +256,7 @@ freeCodeCamp.
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
 2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
 
-### Day 25: January 25, Tuesday
+### Day 25: January 24, Tuesday
 
 **Today's Progress**: "Finished" the population model.  Birth rates and death rates are no longer quite so crazy, and the population growth rates stay somewhat in the realm of believability.
 
@@ -266,3 +266,23 @@ freeCodeCamp.
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
 2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
+
+### Day 26: January 25, Wednesday
+
+**Today's Progress**: Started on the food model.  Not much to see here yet.
+
+**Thoughts**: Didn't get home until late, so I didn't really get as much done as I would have liked.  ...and then I fell asleep before committing my updates to GitHub. _sigh_
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+
+### Day 27: January 26, Thursday
+
+**Today's Progress**: Expanding on last night's work, I finished up the "placeholder" versions of the nation, food, and territory models.  I also updated the app.js script to use the new nation module in place of directly working with the population module.
+
+**Thoughts**: Again, I don't feel like I got as much work done tonight as I would have liked.  Tomorrow, however, I'm going to an all night coding outing with the local freeCodeCamp group, and I'm planning to dedicating it to a "Night of Coding Dangerously" (ala NaNoWriMo).  My goal is to have another working demo up on GitHub with a fundamental food and territory model by the end of the night.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
