@@ -286,3 +286,14 @@ freeCodeCamp.
 **Link(s) to work**
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+
+### Day 28: January 27, Friday
+
+**Today's Progress**: Rebuilt the layout to provide more information in an easier to read format.
+
+**Thoughts**: I haven't truly started on the food model yet (regardless of what the branch name may say), but this new layout should help me show what I have new model modules doing.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
