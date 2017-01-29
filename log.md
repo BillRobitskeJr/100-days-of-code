@@ -297,3 +297,15 @@ freeCodeCamp.
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
 2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
+
+### Day 29: January 28, Saturday
+
+**Today's Progress**: Filled out the data tables (at least the factors to display in them) for Food and Territory.  Also started on the properties of the food model, including the consumption rate.
+
+**Thoughts**: Now that there's a dynamic food model (even one that just gets consumed to zero), the impact of hunger of the population model clearly needs work.  Currently, with one territory, the population stabilizes at a little over 300 -- with 0 food.  I had convinced that a 95+% hunger rate was still rational (seriously?) because the population would be as a hold malnourished, but not starving.  But if they absolutely no food -- with no way of producing more -- cannot sustain any population.  The population starves, the death rate goes up to 100%, everyone dies, that's no, no continues.
+
+But at least I now know what to look at fixing.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
