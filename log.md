@@ -309,3 +309,14 @@ But at least I now know what to look at fixing.
 **Link(s) to work**
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+
+### Day 30: January 29, Sunday
+
+**Today's Progress**: Put together a basic "hunting/gathering" food production formula, and changed how hunger impacts the population death rate.
+
+**Thoughts**: Well, the population is kept in check by food better, but a bit too well.  If population growth outpaces food production but there's a large food stockpile, the population can continue to grow to the point where it quickly reduces the food to near zero, resulting in a mass kill off.  Then the cycle repeats.
+
+**Link(s) to work**
+
+1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
+2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
