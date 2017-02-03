@@ -320,3 +320,35 @@ But at least I now know what to look at fixing.
 
 1. [Idle Nations repository](https://github.com/DigitalMugen/idle-nations)
 2. [Idle Nations demo](https://digitalmugen.github.io/idle-nations/)
+
+### Day 31: January 30, Monday
+
+**Today's Progress**: Started a new repo for testing out web components v1.
+
+**Thoughts**: All of my work tonight was fighting with getting the project set up.  With as many times as I have done this now, I'm kind of appalled of myself regarding how much trouble I seemed to have.
+
+**Link(s) to work**
+
+1. [web-components-test repository](https://github.com/BillRobitskeJr/web-compontents-test)
+
+### Day 32: January 31, Tuesday
+
+**Today's Progress**: Created a test page with a example custom element, following the web components v1 spec.  Unfortunately, it doesn't work...
+
+**Thoughts**: I'm not sure what I'm doing wrong here... I don't see anything wrong with my code, compared to the examples I've found, but I keep getting the following error:
+
+> Failed to construct 'HTMLElement': Please use the 'new' operator, this DOM object cannot be called as a function.
+
+**Link(s) to work**
+
+1. [web-components-test repository](https://github.com/BillRobitskeJr/web-compontents-test)
+
+### Day 33: February 2, Thursday
+
+**Today's Progress**: Finally got custom elements working!  Yay!
+
+**Thoughts**: So, it was Babel's fault.  Apparently, classes extending HTMLElement cannot be transpiled the same way other ES6 classes can.  This is a defect known to the Babel team ([Issue #4480](https://github.com/babel/babel/issues/4480)), but I was able to find a plugin that fixes it for HTMLElement -- [babel-plugin-transform-custom-element-classes](https://github.com/github/babel-plugin-transform-custom-element-classes).  It can only handle custom elements extending the base HTMLElement class, so no extending HTMLButtonElement for me yet.  It is enough to play around, though.
+
+**Link(s) to work**
+
+1. [web-components-test repository](https://github.com/BillRobitskeJr/web-compontents-test)
