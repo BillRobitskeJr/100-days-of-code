@@ -2,7 +2,7 @@
 
 ### Day 1: March 22, Thursday
 
-**Today's Progress**:
+**Today's Progress**
 
 Today, I restarted my Lasagna task tracking app.  I'm still using Firebase for
 hosting (and storage once I get there), but I'm going with Custom Elements v1
@@ -13,7 +13,7 @@ instead of Polymer this time.  We'll see how long that line of thought lasts.
 As for work completed, there's not much to look at.  I have the start of the
 activity log, sans any styling or real behavior.
 
-**Thoughts**:
+**Thoughts**
 
 This is more a thought from yesterday, but it is what finally gave me the
 confidence with myself to recommit to this.
@@ -29,6 +29,31 @@ where the tag name we want to use that behavior will actually be decided.
 It was this thought that finally got me past thinking I was hacking my way
 around Webpack omitting my custom element modules entirely if I didn't make some
 use of the class.
+
+**Link(s) to work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com)
+2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
+
+### Day 2: March 24, Friday
+
+**Today's Progress**
+
+I added [multiview](https://www.npmjs.com/package/multiview) and
+[watch-cli](https://www.npmjs.com/package/watch-cli) to save me some work
+calling Webpack and copying the bundle over to the public folder.
+
+I also started working on styling the activity log... which is clearly a work in
+progress because why `<input>`?  Why?
+
+**Thoughts**
+
+Brains...?
+
+Really, I can't think of anything to put under thoughts tonight...
+
+...scratch that - plans for moving forward!  Now that I've figured out how to
+get Custom Elements v1 working in ES5, I need to implement that here.
 
 **Link(s) to work**
 
