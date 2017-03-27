@@ -91,3 +91,24 @@ version of the code - ES5 or ES6 - to pull in at page load.
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com)
 2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
+
+### Day 4: March 26, Sunday
+
+**Today's Progress***
+
+Moved the contents of the `<lasagna-activity-log-activity>` internal element
+(which is also a tag name that just rolls off the tongue) into a method of the
+`<lasagna-activity-log>` element class.
+
+**Thoughts**
+
+I must be doing something wrong with diffHTML - it works for the main class, but
+its `innerHTML` function doesn't seem to work when rendering a subelement.  No
+idea why at the moment, but the sub-element was a bit overkill anyway.  I'll
+have to see if a different function would/will work better if I ever truly need
+nested elements - which is certain to happen at some point.
+
+**Link(s) to Work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com)
+2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
