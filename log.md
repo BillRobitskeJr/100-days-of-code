@@ -94,7 +94,7 @@ version of the code - ES5 or ES6 - to pull in at page load.
 
 ### Day 4: March 26, Sunday
 
-**Today's Progress***
+**Today's Progress**
 
 Moved the contents of the `<lasagna-activity-log-activity>` internal element
 (which is also a tag name that just rolls off the tongue) into a method of the
@@ -111,4 +111,31 @@ nested elements - which is certain to happen at some point.
 **Link(s) to Work**
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com)
+2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
+
+### Day 5: March 27, Monday
+
+**Today's Progress**
+
+"Progress" is arguable, but I did continue trying to use diffHTML to handle
+updating the shadow DOM based on a template string.  Unfortunately, I still
+cannot get it to work nested - there's a `bufferSet` flag that is set during the
+inner call to `innerHTML` which "short circuits" updating the DOM.
+
+Revising the TypeScript declarations for the module, however, did get it working
+for just `this.shadowRoot` in the `LasagnaActivityLogElement` class, which makes
+it much cleaner.
+
+**Thoughts**
+
+My suspicions at the moment are that I need to use tagged template strings
+instead of normal "vanilla" template strings.  Unfortunately, I haven't figured
+out how to get TypeScript to accept the `html` function as a template tag.  The
+official documentation hasn't been any help yet.
+[Another site](https://basarat.gitbooks.io/typescript/docs/template-strings.html)
+makes it sound possible, though.
+
+**Link(s) to Work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com) -- Still yesterday's version
 2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
