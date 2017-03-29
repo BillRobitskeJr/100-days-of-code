@@ -139,3 +139,23 @@ makes it sound possible, though.
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com) -- Still yesterday's version
 2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
+
+### Day 6: March 28, Tuesday
+
+**Today's Progress**
+
+Not much... I was able to get tagged template strings working, but that didn't
+resolve the issue.
+
+**Thoughts**
+
+I'm not seeing away around the `bufferSet` issue with diffHTML.  While I think
+the idea behind the library is great, if I'm going to have to work around it,
+I may as well do it the vanilla JS/DOM way.  Yes, direct DOM manipulation is
+expensive, but I can mitigate it.  Wasn't that the whole reason why libraries
+like diffHTML were made?
+
+**Link(s) to Work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com) -- Still Day 4's version
+2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
