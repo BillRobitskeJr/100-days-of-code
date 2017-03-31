@@ -159,3 +159,25 @@ like diffHTML were made?
 
 1. [Lasagna](https://lasagna-d5007.firebaseapp.com) -- Still Day 4's version
 2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
+
+### Day 7: March 30, Thursday
+
+**Today's Progress**
+
+Progress?  Tonight was more "cleanup" than anything.  I'm not going to use
+diffHTML for the reasons stated in Day 6.  Instead, I'm just going to use normal
+template strings and "render" methods.
+
+**Thoughts**
+
+Time zones are hard...  I want to use ISO 8601 format dates for the
+`<lasagna-activity-log>` element's `date` attribute, but Javascript interprets
+lone ISO 8601 dates as being for midnight UTC.  As such, the date displayed when
+formatted with `Date.prototype.toLocaleDateString` is incorrect for users in
+time zones "behind" UTC.  None of my attempts to correct this tonight have
+worked, unfortunately.
+
+**Link(s) to Work**
+
+1. [Lasagna](https://lasagna-d5007.firebaseapp.com) -- Still Day 4's version
+2. [GitHub Repo](https://github.com/DigitalMugen/lasagna)
