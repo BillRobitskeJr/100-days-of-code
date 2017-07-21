@@ -51,3 +51,21 @@ Now, if I could just figure out how to automate my front-end testing...
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
 3. [Recording of Live Coding Broadcast](https://www.twitch.tv/videos/160490397)
+
+### Day 4: July 20, Thursday
+
+**Today's Progress**
+
+Implemented updating accounts resources via PATCH /api/accounts/:id (9 new tests).  Also cleaned up the code in the AccountsRoute module some ("Don't Repeat Yourself").
+
+**Thoughts**
+
+I didn't stream tonight - stayed out too late, and didn't feel like running a 10pm stream.  On the plus side, however, I'm now definitely at a point where a web interface would have a useful API to utilize.  That will be my goal tomorrow - a web interface to view, add, and modify a chart of accounts.
+
+I also discovered the [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogrammer) subreddit last night.  This thing is awesome - random programming challenges!  Now, I have somewhere to go when I need a break from my projects, but want a coding problem to work on to keep up on my goal.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+3. ...no stream... :disappointed:
