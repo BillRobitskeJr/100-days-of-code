@@ -69,3 +69,19 @@ I also discovered the [/r/dailyprogrammer](https://www.reddit.com/r/dailyprogram
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
 3. ...no stream... :disappointed:
+
+### Day 5: July 21, Friday
+
+**Today's Progress**
+
+No new progress on "Bookkeeping"; I instead worked on a couple /r/dailyprogrammer challenges - [#323 Intermediate](https://www.reddit.com/r/dailyprogrammer/comments/6mtvbk/20170712_challenge_323_intermediate_parsing/) & [#321 Easy](https://www.reddit.com/r/dailyprogrammer/comments/6jr76h/20170627_challenge_321_easy_talking_clock/).  I pulled together the solution for 321 pretty easily, but I only got as far as the third address on 323.  I swear that the format of the input address is wrong based on everything I can find on Greenland's address format.
+
+**Thoughts**
+
+My plan to work on front-end development for "Bookkeeping" tonight led me to insist on streaming the work.  Unfortunately, technical problems with the twitch.tv dashboard ([Tweet from @TwitchSupport](https://twitter.com/TwitchSupport/status/888531368329838595)) led me to wait until after I got home from a little league baseball game.  Double-unfortunately, I didn't get back home until after 10, and didn't feel like streaming by then.
+
+Fortunately, I did have /r/dailyprogrammer to fall back on for something to do to get my hour of work in.  Hooray!
+
+**Links to Work**
+
+1. [Solution to /r/dailyprogrammer Challenge #321 - Easy - Talking Clock](https://gist.github.com/BillRobitskeJr/9a3cce6661b69c2fa32fd43f1ff54aa4)
