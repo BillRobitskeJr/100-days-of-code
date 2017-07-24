@@ -85,3 +85,34 @@ Fortunately, I did have /r/dailyprogrammer to fall back on for something to do t
 **Links to Work**
 
 1. [Solution to /r/dailyprogrammer Challenge #321 - Easy - Talking Clock](https://gist.github.com/BillRobitskeJr/9a3cce6661b69c2fa32fd43f1ff54aa4)
+
+### Day 6: July 22, Saturday
+
+**Today's Progress**
+
+Started work on a basic web front-end for the chart of accounts API I've been working on.  It successfully reads in the accounts and allows adding new accounts.  Nothing yet for cases where the new account number is already in use (it errors, but nothing is displayed on screen).  Also, it doesn't yet let you edit accounts.
+
+**Thoughts**
+
+I decided to go the Custom Elements v1 route here, so we're talking about modern browsers only.  That is great and all, but it also means that using LESS is pretty much use-LESS. :stuck_out_tongue_winking_eye:
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+3. [Recording of Live Coding Broadcast](https://www.twitch.tv/videos/161174355)
+
+### Day 7: July 23, Sunday
+
+**Today's Progress**
+
+Started writing specification tests - tonight working on the Account class constructor.  I also changed the `isPermanent` property to be based on the account's `number`, and added an `accountType` property that does the same.
+
+**Thoughts**
+
+I'm using dynamically generated tests for the specification tests.  More tests to ensure that future changes don't break anything that I don't expect - which is the whole point of the behavior-driven/test-driven design thing, right?
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
