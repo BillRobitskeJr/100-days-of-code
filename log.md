@@ -116,3 +116,29 @@ I'm using dynamically generated tests for the specification tests.  More tests t
 
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+
+### Day 8: July 24, Monday
+
+**Today's Progress**
+
+- Updated the REST API to include the `accountType` property in "accounts" resources
+- Updated the tests for the REST API to reflect the addition of the `accountType` property
+- Updated the front end to display the Account Type
+- Updated the front end to automatically set the `accountType` and `isPermanent` values of new accounts based on the account number
+- Updated the front end to allow for editing and saving changes to existing accounts -- _Currently, the only modification possible is changing the account name._
+
+**Thoughts**
+
+Dealing with DOM in TypeScript is a bit annoying.  It cannot tell what elements (if any) will be returned by `.querySelector`, so it insists that it could return null even when you just defined the content of the element being queried.  This leads to having to include a bunch of statements like the following:
+
+```TypeScript
+this.shadowRoot.innerHTML = '<div class="target">Content</div>';
+const element = this.shadowRoot.querySelector('.target');
+if (!element) return; // WHY...
+element.innerHTML = 'New Content';
+```
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
