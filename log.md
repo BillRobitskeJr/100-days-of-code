@@ -142,3 +142,23 @@ element.innerHTML = 'New Content';
 
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+
+### Day 9: July 28, Friday
+
+**Today's Progress**
+
+- Added `AccountsStore` class to save/load accounts to/from a JSON file
+- Updated `AccountsRoute` to accept an `AccountsStore` instance upon creation
+- Updated `AccountsRoute` to save its `AccountsStore` when accounts are added via `POST /api/accounts` or updated via `PATCH /api/accounts/:id`
+- Updated `Server` to create an `AccountsStore` if provided an `accountsFile` when created
+- Updated `Server` to pass this `AccountsStore` instance to its `AccountsRoute` instance
+- Updated `index.ts`/`index.js` to persist accounts data to `./accounts.example.json`
+
+**Thoughts**
+
+Yeah, I'm missed a few days due to illness and personal issues.  Now that I'm back, I'm planning to get 4 hours in tomorrow to catch up.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
