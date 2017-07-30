@@ -192,3 +192,20 @@ I did get pretty well caught of on time, though, so that's good.  Going forward,
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
 3. [Caves](https://github.com/DigitalMugen/caves)
 4. [DigitalMugen/caves on Travis CI](https://travis-ci.org/DigitalMugen/caves)
+
+### Day 11: July 30, Sunday
+
+**Today's Progress**
+
+- Began work on account ledgers
+  - Added `GET /api/ledgers` endpoint to REST API to return ledgers for each account
+  - Added `GET /api/ledgers/:accountNumber` endpoint to retrieve a single account's ledger
+
+**Thoughts**
+
+I struggled with getting this work done today - I look at the code, and I really want to start over.  Part of this comes from having only a cursory understanding of accounting.  I find myself torn between viewing the model as analogs of the paper copies I'd create, but then I look at how everything interconnects and what to build out this massive graph.  And that graph is not what I started my design with.  I guess I'll have to see how I feel or just take some time to re-recreate this project.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
