@@ -162,3 +162,33 @@ Yeah, I'm missed a few days due to illness and personal issues.  Now that I'm ba
 
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+
+### Day 10: July 29, Saturday
+
+**Today's Progress**
+
+- Bookkeeping
+  - Updated `GET /api/accounts` to return accounts resources in numeric order by their account numbers
+- Caves
+  - Added `POST /api/commands` endpoint to REST API to take commands from the client
+    1. `Command`s are parsed into their action and target using natural language processing via [compromise]()
+    2. `Interpreter` determines the appropriate `Response` for each `Command`
+    3. The parsed `Command` and `Response` are returned via the JSON API Response
+  - Updated the client to send entered commands to the server via `POST /api/commands`
+  - Updated the client to display the responses that come back from `POST /api/commands` requests
+  - Updated the terminal interface to actually have the prompt `<input>` extend the width of the window
+
+**Thoughts**
+
+I don't really feel like I have must to be proud of with Caves, yet.  Yes, it's really only at the beginning stages, but for something like what I would build in BASIC in when I was in grade school, I expected more of myself.  Then again, I'm not pulling code from a book.
+
+(Side Note:  The book that I used when I was a kid now runs over $1,000 US for a copy.  Holy cow!)
+
+I did get pretty well caught of on time, though, so that's good.  Going forward, though, I think I'm going to focus on working on Bookkeeping.  Caves may be a fun one to mess around with here and there, but I feel like I can make must more meaningful progress with the other.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+3. [Caves](https://github.com/DigitalMugen/caves)
+4. [DigitalMugen/caves on Travis CI](https://travis-ci.org/DigitalMugen/caves)
