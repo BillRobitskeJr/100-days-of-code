@@ -209,3 +209,31 @@ I struggled with getting this work done today - I look at the code, and I really
 
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+
+### Day 12: August 1, Tuesday
+
+**Today's Progress**
+
+- Started a new "redesign" branch for addressing concerns expressed on Sunday
+  - Removed all TypeScript/LESS code
+  - Updated npm "test" and "start" scripts to use non-TypeScript version
+  - Removed various npm "build" scripts
+  - Added `Account` model class module
+  - Added placeholder `Ledger` model class module
+  - Added `Account` specification tests for `new Account()` (_PASSING_)
+
+**Thoughts**
+
+Since I wasn't able to code yesterday, I got a good 2+ hours in tonight.
+
+I started playing with [Cloud9](c9.io).  The development environment seems great, but the way that hosting works is a bit weird - or rather, it expects thing to be done "the node way" with `process.env.PORT` and `process.env.IP`, when I was specifying port 3000 and just using `localhost`.  While my tests would run fine, I couldn't check out the front end.
+
+This, in addition to my concerns yesterday, led me to design to start on my redesign.  I was good, though, and started a new branch for this work.
+
+I will say this, though.  Working on Cloud9 is definitely going to help me learn the various `git` commands via command line.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+3. [Bookkeeping on Cloud9](https://ide.c9.io/billrobitskejr/bookkeeping)
