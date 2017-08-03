@@ -237,3 +237,28 @@ I will say this, though.  Working on Cloud9 is definitely going to help me learn
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
 3. [Bookkeeping on Cloud9](https://ide.c9.io/billrobitskejr/bookkeeping)
+
+### Day 13: August 2, Wednesday
+
+**Today's Progress**
+
+- More specification testing for the `Account` model class module
+  - Added empty `settings` object case to `Account` specification tests for `new Account()` (_PASSING_)
+  - Added `Account` specification tests for `<Account>.number` (_PASSING_)
+  - Added `Account` specification tests for `<Account>.name` (_PASSING_)
+  - Added `Account` specification tests for `<Account>.type` (_PASSING_)
+  - Added `Account` specification tests for `<Account>.balance` (_PASSING_)
+  - Added `Account` specification tests for `<Account>.isBalancePermanent` (_PASSING_)
+  - Added placeholder `Account` specification tests for `<Account>.ledger` (_PENDING_)
+
+**Thoughts**
+
+I got my iPad Pro all up to date and tried out Cloud9 on it.  Unfortunately, the arrow keys don't work (iOS issue with Chrome text boxes - not Cloud9's fault) and `Cmd`+`S` doesn't save.  Otherwise, it appears to be functional.  It's not a great solution, but it can work if I want to work someplace but not take my laptop with me.
+
+I need (read: want) to add a `balanceType` property to indicate whether an account carries a debit balance or a credit balance.  Like `type` and `isBalancePermanent`, this property would be read-only and determined by the first digit of the account number.  I'll work on that tomorrow, and then move onto the `Ledger` class.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+3. [Bookkeeping on Cloud9](https://ide.c9.io/billrobitskejr/bookkeeping)
