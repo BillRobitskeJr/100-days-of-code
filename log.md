@@ -262,3 +262,28 @@ I need (read: want) to add a `balanceType` property to indicate whether an accou
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
 3. [Bookkeeping on Cloud9](https://ide.c9.io/billrobitskejr/bookkeeping)
+
+### Day 14: August 4, Friday
+
+**Today's Progress**
+
+- Added `.balanceType` to `Account` model class module
+  - Added `Account` specification tests for `<Account>.balanceType` (_PASSING_)
+  - Implemented `get`ter and `set`ter for `<Account>.balanceType`
+- Began implementation of `Ledger` model class module
+  - Added basic `new Ledger()` specification tests (_PASSING_)
+  - Added placeholder `Ledger` specification tests for `<Ledger>.account` (_PENDING_)
+  - Added placeholder `Ledger` specification tests for `<Ledger>.debits` (_PENDING_)
+  - Added placeholder `Ledger` specification tests for `<Ledger>.credit` (_PENDING_)
+- Fixed minor bug in `Account` specification tests - a `.throw` should have been `.throw()`
+- Changed `require` calls in model class modules to be called in the methods immediately needing them rather than at the module level
+
+**Thoughts**
+
+At this point, I'm not sure if I'm actually adhering to the #100DaysOfCode challenge.  While I'm trying to average an hour a day, I'm not getting work in _every_ day.  I'm only counting calendar days on which I've worked, hence why I'm only on Day 14 even though I have worked hours for all days since July 17 -- including those days I missed.  I have been putting in "catch-up hours", but that doesn't "catch up" my day count.  I guess my thought is that I will put in work on 100 separate days, and I will put in an average of at least an hour a day until I reach that day.  If it takes me 150 days until I have worked on 100 separate days, then I'll have 150 hours of work in.  Some strange sense of fairness in my head, I guess ... and now I'm rambling.  Good night.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+3. [Bookkeeping on Cloud9](https://ide.c9.io/billrobitskejr/bookkeeping)
