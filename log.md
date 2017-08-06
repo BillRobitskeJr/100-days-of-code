@@ -287,3 +287,25 @@ At this point, I'm not sure if I'm actually adhering to the #100DaysOfCode chall
 1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
 2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
 3. [Bookkeeping on Cloud9](https://ide.c9.io/billrobitskejr/bookkeeping)
+
+### Day 15: August 5, Saturday
+
+**Today's Progress**
+
+- Filled placeholder in `Ledger` specification tests
+  - Added `Ledger` specification tests for `<Ledger>.account` (_PASSING_)
+  - Added `Ledger` specification tests for `<Ledger>.debits` (_PASSING_)
+  - Added `Ledger` specification tests for `<Ledger>.credits` (_PASSING_)
+- Filled in placeholder `Account` specification tests for `<Account>.ledger` (_PASSING_)
+- Updated `new Account()` specification test to ensure `<Account>.ledger` is the new account (_PASSING_)
+- Fixed typo in `<Account>.number` set method - `.isNan` should have been `.isNaN`
+
+**Thoughts**
+
+I think I've concluded that trying to use Cloud9 on an iPad Pro _SUCKS_!  You can't double-click on files to open them, it just makes the browser zoom in and out.  Every time you click in the terminal pane, the keyboard toolbar covers where the prompt is.  Etc.  On top of the issues I discovered the first time I tried, it's just not really productive trying to use it.  No, none of these are Cloud9's fault; it's just how web applications run on iOS due to zoom levels and silly text boxes.
+
+**Links to Work**
+
+1. [Bookkeeping](https://github.com/BillRobitskeJr/bookkeeping)
+2. [BillRobitskeJr/bookkeeping on Travis CI](https://travis-ci.org/BillRobitskeJr/bookkeeping)
+3. [Bookkeeping on Cloud9](https://ide.c9.io/billrobitskejr/bookkeeping)
