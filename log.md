@@ -16,13 +16,16 @@ We'll make a game of Asteroids in which the player has a limited view of the env
 
 **Today's Progress**
 
-
+A bit of progress on the human player-facing game, the ship is drawn in the center of the canvas, with eight view sectors arrayed around it.
 
 **Thoughts**
 
-
+- I'm terribly rusty with the Canvas API.  It took me far to long to get this set up.  Then again, a large part of that was getting my math worked out (and it's not even complex math yet...)
+- I took too much time playing around with the page title.  I was able to mimic the old Asteroids arcade logo.
+- I may want to change the sectors around some.  I'd love to have twelve sectors to reflect clock positioning.  At the same time, I'm tempted to make the sectors more dense in front of the ship and less dense behind.  I think I'll leave it as is for now (at least until the obstacles are implemented).
+- The idea of the game will be to keep the ship and sectors fixed on the screen and instead rotate and translate the obstacles around the ship.
 
 **Link(s) to Work**
 
-1. 
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
 
