@@ -29,3 +29,31 @@ A bit of progress on the human player-facing game, the ship is drawn in the cent
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
 
+### Day 2: January 2, Wednesday
+
+**Starting Thoughts**
+
+So, I'm realizing an initial flaw with my design.  While I still want to go this route - with the player in the center and seeing only limited information of the sectors around you - it's not going to be helpful to tell "is this working".  Creating the AI to play this game isn't going to be worth anything if a player can't tell what they're doing anyway.  If a player'd just be winging it, then how can you tell if the AI is learning?
+
+So, I need to make a second view - one more like the traditional Asteroids game.  Then I can mirror both views based on the player (or AI actor) input.  Ultimately, my next most immeidate goals are:
+- Create a "bird's eye" view
+- Factor "player's eye" view into a module
+- Add a player input module
+- Add a game state module (to keep track of the player ship and any other entities I add later)
+- Connect all this stuff together!
+
+**Today's Progress**
+
+It does something now!  There's now a game and ship state model: GameState holds the size of the game environment (in pixels, x & y) and the refresh rate (updates per second), and ShipState holds each ship's position (relative to the game environment, x & y from 0 to 1), velocity (heading & speed), and heading.  An ObserverView has been added to show the game more like the traditional Asteroids game, while PlayerView shows the game from the perspective of a particular ship.
+
+With these additions, index.js now just creates the game and player ship state, creates the player and observer views, and starts a loop to update the player ship's position and update the views.  Now you can see how the ship is moving around the game field, even though the player's view appears unchanged.  There's only the player ship, so there are no points of reference to tell that there's anything going on.
+
+**Thoughts**
+
+Asteroids is fun, but it always seemed strange that the ship would slow down on its own.  It's like moving in a fluid, not a vacuum.  For my game, the ship is completely inertial.  I want their to be a max speed (i.e. velocity.speed = 1), but it should be relativistic.  The rate of acceleration should suffer from diminishing returns as the ship approaches max speed as if it were light speed.  As speed = 1 means the ship is making a complete wrap of the screen each second, this kind of makes sense.
+
+I haven't implemented player input yet, so there is no acceleration.  This is likely where I'll start tomorrow.
+
+**Link(s) to Work**
+
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
