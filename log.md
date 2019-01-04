@@ -57,3 +57,22 @@ I haven't implemented player input yet, so there is no acceleration.  This is li
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 3: January 3, Thursday
+
+**Starting Thoughts**
+
+Nothing complicated tonight, just getting player input working:
+- Turn Left
+- Turn Right
+- Thrust
+- Fire
+- Hyperspace Jump
+
+**Today's Progress**
+
+**Thoughts**
+
+**Link(s) to Work**
+
+
