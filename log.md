@@ -71,8 +71,14 @@ Nothing complicated tonight, just getting player input working:
 
 **Today's Progress**
 
+Well, I can rotate and engage a hyperspace jump.  However, acceleration is not working right.
+
 **Thoughts**
+
+... I don't want to talk about it.
+
+...other than, I need to give up on polar velocities for now and make sure I'm processing the heading correctly.
 
 **Link(s) to Work**
 
-
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
