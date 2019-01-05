@@ -82,3 +82,27 @@ Well, I can rotate and engage a hyperspace jump.  However, acceleration is not w
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 4: January 4, Friday
+
+**Starting Thoughts**
+
+Simply put, get the ship movement system working in a sane fashion.  Yes, speed and direction made it easy to keep the speed in check, but it ends up making the math more complicated than it really needs to be.  Just use a Cartesian vector, you goof.
+
+**Today's Progress**
+
+Effectively only began converting things over to Cartesian vectors.  Added a matrix class so I can treat the math more cleanly.  Instead of creating a bunch of conversion functions and then looping through them, I can now just use marix addition and multiplication.
+
+Unfortunately, the game's no longer in a "working" state.
+
+**Thoughts**
+
+Converted ship velocity over to a Cartesian vector, but tried to change things over to using arrays instead of objects, which in turn led to refacting the whole damned thing - views, physics, etc.
+
+Eventually, I just decided it would be simpler to just use matrices.  I was basically trying to do this anyway with the arrays, but true matrices would allow me to perform the math more clearly than the mess of `Array.prototype.map` calls I was heading towards.
+
+I also decided to switch the game coordinates to use the center of the game environment as the origin (0, 0), with x increasing towards the right and y increasing towards the top of the window.  The canvas's y coordinates, however, are flipped, with y increating towards the bottom.  That's basically what I'm working through now - coming up with the translation factors for converting game coordinates to canvas coordinates.
+
+**Link(s) to Work**
+
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
