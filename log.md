@@ -124,3 +124,25 @@ Tomrrow, I focus on getting turning working properly again.  Currently, your hea
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 6: January 6, Sunday
+
+**Starting Thoughts**
+
+I was mixed this morning on if I really needed (or should) to continue writing "starting thoughts" on the day's work.  If I'm talking about what my plan is for the day, then the short answer for today would be "keep working on the thing".  However, I also realize that some of the headaches I've encountered so far were due to poor planning - which is what I first included my "starting thoughts" to address.
+
+At the same time, is there room for more than just my plan for today in this section.  If my closing thoughts is a reflection on the day's work, then maybe my starting thoughts can be a reflection on where I'm going moving forward.
+
+So, on that note - where am I going with this?  Clearly, first off is getting the game working in terms of a traditional Asteroids clone, with the observer view.  With that in mind, the ship controls should be working by day's end.  Shooting is the likely the only real concern as that's require adding shot entities.  Not a major issue, as they're primarily just a position and velocity (ship lite?)  After that'll be adding asteroids to avoid and destroy -- and die to.  Once all of that is working for the observer view, then I'll return to the ship-perspective view.  And then, once that's done, I should be good for developing the AI.
+
+**Today's Progress**
+
+
+
+**Thoughts**
+
+
+
+**Link(s) to Work**
+
+
