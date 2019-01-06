@@ -106,3 +106,21 @@ I also decided to switch the game coordinates to use the center of the game envi
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 5: January 5, Saturday
+
+**Starting Thoughts**
+
+Just more work to do to get this thing working again.
+
+**Today's Progress**
+
+Got things working at least as well as it was on Day 2, plus hyperspace jumping.
+
+**Thoughts**
+
+Tomrrow, I focus on getting turning working properly again.  Currently, your heading while turning is limited to 0 - 1, expect the new range for heading is 0 - 2&pi;.  Also, expecting the smaller range, the speed of turning needs to be increased as well.
+
+**Link(s) to Work**
+
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
