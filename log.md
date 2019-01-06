@@ -137,12 +137,17 @@ So, on that note - where am I going with this?  Clearly, first off is getting th
 
 **Today's Progress**
 
-
+- **Ship movement works fully.**  Turning works correctly again, and you can thrust.  There is no maxiumum speed, but the controls feel pretty good.  Thrust is not reflected in the player view at this time.
+- **Ship shooting implemented.**  Shots project from the point of the ship with a set muzzle velocity relative to the ship's current velocity.  Currently, there is no limit on firing rate beyond the framerate.
 
 **Thoughts**
 
+I'm much happier with the matrix math.  It really made adding the shots simple - just calculate the shot's ship-relative velocity, then add the ship's velocity.  (That seems like a really trivial thing to be happy about, but I'm more happy that the code is also really that trivial.)
 
+Two things that I may want to adjust in the future, but I'm okay with now:
+- There are no "maximum velocity" for the ship or shots.  It gets a little insane if you hold the thruster down.  I do want to have a maximum velocity at some point, but I'd rather get this thing working first.
+- The shots don't have a "lifespan".  They stay around forever and eventually turn the game into a massive bullet hell.  Currently, there's no collision with the ship, but it would become nearly impossible to dodge them if you keep missing.  I do like the idea of the shots sticking around indefinitely as a "physical" entity, but I may want to adjust the firing rate depending on how it goes once the asteroids are added and collision is in place.
 
 **Link(s) to Work**
 
-
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
