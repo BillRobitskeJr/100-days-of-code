@@ -151,3 +151,27 @@ Two things that I may want to adjust in the future, but I'm okay with now:
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 7: January 7, Monday
+
+**Starting Thoughts**
+
+I spent some time last night and this morning tinkering around with a physics system.  My thoughts are to have the game completely physics based - the asteroids, ship(s), and shots would transfer momentum when they collide.  I figured it would be awesome to see things deflecting off each other, causing them to spin out of control.  This would also produce some interesting side effects:
+- You wouldn't have direct control over your heading; you'd have rotation thrusters that would change your angular velocity similar to your main thruster for adjusting your linear velocity.
+- Your shots would affect your ship's velocity; the momentum granted to the shot would be balanced out by impacting the ship's momentum as well.
+- Your shots would primarily impact asteroids momentum rather than immediately breaking them apart.  It doesn't seem realistic for a single tiny shot to crack a giant asteroid in half, and it would be more entertaining to just knock them spinning off first.  The dilemna, though, is at what point should an asteroid break up.
+
+However, none of that helps me actually get this thing working!  Oops.  So, while I definitely have put in at least an hour of work today, it's not work that I'm committing to the repository.  (At least not yet.)
+
+So, this evening, I'm going to try to at least add the asteroids to the game.  I'm not sure about collision yet, but just having some rocks floating around would at least be something I'd count as progress.
+
+**Today's Progress**
+
+
+
+**Thoughts**
+
+
+
+**Link(s) to Work**
+
