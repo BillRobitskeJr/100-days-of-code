@@ -181,3 +181,22 @@ Clearly the normal distribution route was the right tool for the job.  With only
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 8: January 8, Tuesday
+
+**Starting Thoughts**
+
+I'm going in a bit different direction today - mostly because it was keeping me up last night thinking about it.
+
+The [Games Done Quick schedule](https://gamesdonequick.com/schedule) is great, but it would be better if I could easily add a run to my calendar so I can have a reminder when a particular run is going to start - say the 3:45am Nier: Automata run.  So, the solution that came to me last night was if I could have a link in my browser that would generate "Add to Calendar" links for each run on the calendar that'd allow me to quickly add it to my Google Calendar.
+
+**Today's Progress**
+
+
+
+**Thoughts**
+
+
+
+**Link(s) to Work**
+
