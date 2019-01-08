@@ -167,11 +167,17 @@ So, this evening, I'm going to try to at least add the asteroids to the game.  I
 
 **Today's Progress**
 
-
+- Added asteroids entities.  A new asteroid is spawned every five seconds with random position, linear velocity, orientation, and angular velocity.  They shape is procedurally generated based around a mean radius.
+- Added a gaussian random number generator to facilitate generating points for the asteroids.
 
 **Thoughts**
 
+First off, I think I may slow down the spawn rate for asteroids and decrease their linear velocity.  Now that I have a guassian random number generator, I may go with a mean velocity so they don't all go shooting off like a rock-et.  (sorry.)
 
+Nevertheless, asteroids came together pretty smoothly.  The procedural shape generation did take some tinkering.  At first, I just picked random angles and a random radius within 5% of the radius of the asteroid, but that tended to create boxy asteroids.  Then I tried various ways of ensuring the angles got spread out pretty evenly to limited results.  Finally, I decided to go the gaussian random route.  I wanted the angles to average evenly around the asteroid's circumference, and I wanted the points to be somewhere around the asteroid's mean radius.
+
+Clearly the normal distribution route was the right tool for the job.  With only a bit of tweaking to the angles' normal distribution, I got a nice rocky-looking asteroid.
 
 **Link(s) to Work**
 
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
