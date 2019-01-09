@@ -213,3 +213,20 @@ I might revisit the idea come Summer Games Done Quick (SGDQ).  I'm thinking a se
 **Link(s) to Work**
 
 1. [gdq-schedule-calendar-links](https://github.com/BillRobitskeJr/gdq-schedule-calendar-links)
+
+### Day 9: January 9, Wednesday
+
+**Starting Thoughts**
+
+Back to Asteroids, today.  In particular, I want to get collision working at least with the asteroids.  When they collide they should break up and deflect off based on their momentum.
+
+**Today's Progress**
+
+
+
+**Thoughts**
+
+
+
+**Link(s) to Work**
+
