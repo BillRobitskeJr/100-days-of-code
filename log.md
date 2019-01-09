@@ -192,11 +192,24 @@ The [Games Done Quick schedule](https://gamesdonequick.com/schedule) is great, b
 
 **Today's Progress**
 
-
+Bookmarklet works great(-ish).  The game names on the GDQ schedule for any upcoming runs are replaced with links to download an .ics file for that run.
 
 **Thoughts**
 
+Reading the schedule came together pretty easily.  Each run basically required reading three lines - a date (which comes before that day's runs) and two run detail rows.  Nicely, the GDQ web team provided a couple nice classes to identify the date row and the second of the two run details rows.
 
+My first challenge was generating the .ics files.  I thought I had it all ready, but the files wouldn't actually import into Apple Calendar.  Luckily, I found an [iCalendar validator](https://icalendar.org/validator.html) (Thanks, Dan Cogliano!) which made quick work of telling me that:
+- My line breaks were in the wrong format.  For iCalendar files, they **must** be Carriage Return-New Line (`\r\n`).  Apparently, normal new lines (`\n`) were not sufficient.
+- That I didn't have any iCalendar components in the file.  For some reason, `EVENT` and `VEVENT` are not the same thing.  Who knew?! (Everyone!  Everyone knew!)
+
+Correcting those issues left me with a fully working script... that wasn't minified.  I was originally using webpack to optimize the output, but then the code wouldn't work outside webpack's boilerplate.  Eventually, I switched to [uglify-js](https://www.npmjs.com/package/uglify-js) (since that's all I really wanted), which in turn led me to upgrading Node.js (How was I still on version 7?!) and installing [Babel](https://babeljs.io/) (as uglify-js only works with ES2015 code).
+
+...which led me to the point my last headache.  The bookmarklet doesn't work in Mobile Chrome!  I can add it to the bookmarks, but it does nothing when I try to run it.
+
+As I cannot find anything on whether bookmarklets actually still work in Mobile Chrome, and not having web tools configured to allow debugging code running on mobile, I had to call it good enough.  I was able to learn some new tech (the iCalendar file format and generating download files), and I met the requirement of creating calendar items for AGDQ 2019 runs (*grins at his filled schedule for the week*).
+
+I might revisit the idea come Summer Games Done Quick (SGDQ).  I'm thinking a separate site that reads the schedule and generates are more featured version that's mobile-friendly (not that the official one isn't mobile-friendly).
 
 **Link(s) to Work**
 
+1. [gdq-schedule-calendar-links](https://github.com/BillRobitskeJr/gdq-schedule-calendar-links)
