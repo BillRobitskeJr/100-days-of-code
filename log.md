@@ -222,11 +222,15 @@ Back to Asteroids, today.  In particular, I want to get collision working at lea
 
 **Today's Progress**
 
-
+Well, I managed a to figure out a few ways that don't work...
 
 **Thoughts**
 
+I did manage identify the asteroid colisions and attempted to handle them.  ...then I failed at physics.
+1. I applied the transferred momentum to the impacted asteroid, but forgot to actually remove it from the impacting one. *sigh*
+2. I based the transferred momentum on the asteroids "universal" velocity, not the relative velocity.
 
+The result, two asteroids touch each other and then vanish as they seemingly hit lightspeed.  *headdesk*
 
 **Link(s) to Work**
 
