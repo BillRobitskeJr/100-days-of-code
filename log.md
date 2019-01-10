@@ -234,3 +234,20 @@ The result, two asteroids touch each other and then vanish as they seemingly hit
 
 **Link(s) to Work**
 
+None...
+
+### Day 10: January 10, Thursday
+
+**Starting Thoughts**
+
+Yesterday's attempt to get collision working failed, so today's objective is to get it actually working.  I may have been playing around with the physics the other day, but yesterday taught me that I need to actually work on that properly.
+
+**Today's Progress**
+
+
+
+**Thoughts**
+
+
+
+**Link(s) to Work**
