@@ -264,7 +264,12 @@ Simple:  Figure out what's causing the momentums to eventually reach NaN territo
 
 **Today's Progress**
 
+Corrected angles in collisions, but collisions are still "creating" momentum.  Disabled player ship and limited to only two asteroids for testing collisions.
+
 **Thoughts**
+
+The math is working correctly from what I can tell, but the momentum is increasing with each collision.  I guess I need to go back to the physics more, but my approach doesn't seem wrong from my understanding (change in momentum = +momentum transferred from other object + -momentum transferred to other object).  I'll have to investigate further tomorrow.
 
 **Link(s) to Work**
 
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
