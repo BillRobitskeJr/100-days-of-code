@@ -255,3 +255,16 @@ In other news, I've found that the GDQ schedule is more of suggestions.  I'm fin
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 11: January 11, Friday
+
+**Starting Thoughts**
+
+Simple:  Figure out what's causing the momentums to eventually reach NaN territory (and fix it, of course).
+
+**Today's Progress**
+
+**Thoughts**
+
+**Link(s) to Work**
+
