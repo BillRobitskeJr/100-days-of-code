@@ -244,10 +244,14 @@ Yesterday's attempt to get collision working failed, so today's objective is to 
 
 **Today's Progress**
 
-
+Switched over to the new physics engine, but there are a bugs to work out.
 
 **Thoughts**
 
+Yay for "real" physics!  Boo for values turning into "Not a Number" at some point.  I have no idea why yet.  As such, I haven't really bothered to update the player commands to work with the new physics `ShipEntity` object.  Nevertheless, I'm calling it progress - just not complete.
 
+In other news, I've found that the GDQ schedule is more of suggestions.  I'm finding the runs start far sooner than previously scheduled, so your calendar events become outdated rather quickly.  With my next attempt at this scheduling thing, making a true web app that can watch for schedule updates and alert the user automatically may be best.
 
 **Link(s) to Work**
+
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
