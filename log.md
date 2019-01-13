@@ -273,3 +273,13 @@ The math is working correctly from what I can tell, but the momentum is increasi
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 12: January 12, Saturday
+
+**Today's Progress**
+
+None.
+
+**Thoughts**
+
+Between being out of town most of the day, and the finale of Awesome Games Done Quick, I slacked on my physics homework and didn't get any coding done.
