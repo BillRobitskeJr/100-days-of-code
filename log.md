@@ -284,7 +284,7 @@ None.
 
 Between being out of town most of the day, and the finale of Awesome Games Done Quick, I slacked on my physics homework and didn't get any coding done.
 
-### Day 12 (Take 2): January 13, 2019
+### Day 12 (Take 2): January 13, Sunday
 
 **Today's Progress**
 
