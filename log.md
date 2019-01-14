@@ -283,3 +283,21 @@ None.
 **Thoughts**
 
 Between being out of town most of the day, and the finale of Awesome Games Done Quick, I slacked on my physics homework and didn't get any coding done.
+
+### Day 12 (Take 2): January 13, 2019
+
+**Today's Progress**
+
+- Reimplemented collision algorithm (correctly this time).  Asteroids now properly bounce off each other.
+- Re-enabled asteroid breakage.  Adjusted fragment ratio to allow more variance between the two fragments' masses and share of momentum.  Also corrected logic around ratio limits; asteroid doesn't break if the ratio is less than or equal to 0 or greater than or equal to 1 (as one of the fragments' mass would be then zero or negative).
+- Adjusted fine tuning to allow for smaller asteroid fragments and to maintain at least 3 asteroids in play.
+
+**Thoughts**
+
+Well, I was making the collision calculation more complicated than it needed to be.  By doing it properly - using a center-of-mass reference frame - the calculations were far simpler.  After implenting it correctly, I believe I was actually doubling the momentum change; I was treating each collision as two separate events rather than one.
+
+With this mess done, it looks like it's time to return to the ship and shot implementations.
+
+**Link(s) to Work**
+
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
