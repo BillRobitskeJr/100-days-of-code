@@ -302,7 +302,7 @@ With this mess done, it looks like it's time to return to the ship and shot impl
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
 
-### Day 13: January 15, 2019
+### Day 13: January 15, Tuesday
 
 **Starting Thoughts**
 
