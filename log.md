@@ -301,3 +301,29 @@ With this mess done, it looks like it's time to return to the ship and shot impl
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 13: January 15, 2019
+
+**Starting Thoughts**
+
+...slacker...
+
+**Today's Progress**
+
+- Added handling of forces on physics entities, allowing for proper linear acceleration.
+- Add player's ship back into the game, and it's properly configured for the new physics engine.
+- Reimplemented shooting mechanic.
+- Implemented a basic "isAlive" flag for ships, so avoid the game logic continuing to allow shooting after the ship's destroyed.
+- Implemented a basic fitness score - currently how long the player's ship has been alive.
+
+**Thoughts**
+
+It's kind of a real game now.  The fitness score isn't directly displayed to the player, but is logged to the console.
+
+The shooting mechanic is still just setting the shots' velocities to a speed relative to the firing ship's velocity.  With the focus on proper physics, it really should be a result of force on the shot (and a reactive force back on the ship).
+
+So, I guess the next major piece to implement is the player-perspective view.
+
+**Link(s) to Work**
+
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
