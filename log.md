@@ -350,3 +350,19 @@ With the gravity, I found myself wanting to watch asteroids bouncing off each ot
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 15: January 17, Thursday
+
+**Starting Thoughts**
+
+I came across an interesting Medium article today, ["How to Remove Array Duplicates in ES6"](https://medium.com/dailyjs/how-to-remove-array-duplicates-in-es6-5daa8789641c) by Samantha Ming.  It does a great job describing three simple ways to create an array containing only the unique members of a source array.  Unfortunately, it didn't cover the performance differences between them.
+
+I'll admit it; I don't tend to worry about doing things the optimal way.  I more appreciate clarity and elegance more.  Nevertheless, if two solutions are relatively equal in function and form, then why not use the one that is more performant?  For example, if I'm performing a iterative loop (e.g. do a thing 10 times), I'll go with the `for (let i = 0, iMax = 10; i < iMax; ++i) { ... }` form over others because I've seen evidence that it runs faster than other methods.  Granted, that increase is practically non-existant at the scales I typically work with, but still...
+
+So, having a question and not having an answer, what's a programmer to do?  Why, build a solution to find the answer, of course!
+
+**Today's Progress**
+
+**Thoughts**
+
+**Link(s) to Work**
