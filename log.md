@@ -327,3 +327,26 @@ So, I guess the next major piece to implement is the player-perspective view.
 **Link(s) to Work**
 
 1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
+
+### Day 14: January 16, Wednesday
+
+**Starting Thoughts**
+
+Watching this thing is kind of mesmerizing.  I really want to implement gravity now...
+
+...so, I guess I'm implementing gravity now.
+
+**Today's Progress**
+
+- Added gravity forces to all entities.
+- Adjusted breakage physics - asteroids only break when shot.
+
+**Thoughts**
+
+The gravitational constant is honestly set far higher than in reality.  Even as high as it is, though, it feels really weak (because gravity is weak...).  I did have fun playing around with the strength.  10-100 makes some really playful gravity; 10000 causes some crazy results.
+
+With the gravity, I found myself wanting to watch asteroids bouncing off each other more, so I changed the breakage "physics" to only break asteroids if they are hit by a shot entity.  You'll still die to your own shots, but the asteroid field remains less chaotic.
+
+**Link(s) to Work**
+
+1. [ai-asteroids](https://github.com/BillRobitskeJr/ai-asteroids)
