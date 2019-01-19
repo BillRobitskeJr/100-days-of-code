@@ -374,3 +374,10 @@ I didn't get far enough to feel I had anything to push to the repository yet.  F
 **Link(s) to Work**
 
 1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
+
+### Day 16: January 19, Saturday
+
+**Starting Thoughts**
+
+So, after going straight to bed after work yesterday, I guess I should get this project done today.  So, as mentioned in "yesterday's" thoughts, I should start with the tests and then create my views around that.
+
