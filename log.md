@@ -363,6 +363,14 @@ So, having a question and not having an answer, what's a programmer to do?  Why,
 
 **Today's Progress**
 
+- Set up GitHub repository for the performance tests
+- Created basic HTML page for displaying results
+- Started work on a results table "component"
+
 **Thoughts**
 
+I didn't get far enough to feel I had anything to push to the repository yet.  For the most part, I think I got too focused on having a view to show results that I didn't get to the actual point of the project.  In hindsight, I should have started with the tests (diplaying them in the console) and then built the view around the data.
+
 **Link(s) to Work**
+
+1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
