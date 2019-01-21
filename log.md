@@ -381,3 +381,26 @@ I didn't get far enough to feel I had anything to push to the repository yet.  F
 
 So, after going straight to bed after work yesterday, I guess I should get this project done today.  So, as mentioned in "yesterday's" thoughts, I should start with the tests and then create my views around that.
 
+**Today's Progress**
+
+- Implemented tests, logging to the console
+
+**Thoughts**
+
+Apparently, using the `Array.prototype.reduce` method for removing duplicates is too slow and/or memory intensive when trying to clean up a million element, collision sparse array.  After `Array.prototype.filter` takes about 25 minutes to complete, I never get a response for `reduce`.  However, `reduce` appears to be faster then `filter` with most of the other tests.
+
+**Link(s) to Work**
+
+1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
+
+### Day 17: January 20, Sunday
+
+**Starting Thoughts**
+
+It looks like I may need to disable the last test case, but it appears that everything's ready for me to actually display results on the page.  With that, I'll actually be ready to commit/push this version to GitHub (and GitHub Pages).
+
+**Today's Progress**
+
+**Thoughts**
+
+**Link(s) to Work**
