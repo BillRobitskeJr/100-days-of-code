@@ -401,6 +401,22 @@ It looks like I may need to disable the last test case, but it appears that ever
 
 **Today's Progress**
 
+- Implemented test results section "component"
+- Implemented test results table "component"
+- Reimplmented `runTests()` to output results to new sections/tables
+- Published tool to GitHub Pages
+
 **Thoughts**
 
+I'm still facing performance issues while the tests are running.  While this is understandable, it is exasperated by the browser not updating promptly.  While the console shows progress as each test completes, the browser doesn't redraw the page to show each table's DOM updates.
+
+I can think of a couple changes to improve the performance:
+1. Change the testing loop to pause via `setInterval` between each so the browser has a chance to update.
+2. Add a web worker and move the testing work into a separate thread so it doesn't interfere with the interface performance.
+
+Option 1 may be the quickest to implement, but it will not solve the browser displaying warning messages to the user about the script taking a long time to respond.  Option 2, from my understanding, should fully address the issue, as the user interface will not be left in a hanging state while the last test takes its sweet time.
+
 **Link(s) to Work**
+
+1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
+2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
