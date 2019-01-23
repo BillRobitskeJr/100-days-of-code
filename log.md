@@ -420,3 +420,20 @@ Option 1 may be the quickest to implement, but it will not solve the browser dis
 
 1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
 2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
+
+### Day 18: January 22, Tuesday
+
+**Today's Progress**
+
+- Changed "remove array duplicates" testing to find the mean time to completion after several trials
+
+**Thoughts**
+
+Figuring that only testing once wasn't a fair assessment of time as the source arrays were being created randomly, I reworked the project to run multiple trials and providing the mean completion times.  The different methods aren't directly compared, because it wasn't really meaningful before...
+
+There is still more work to do to make the whole system actually performant.  Running the tests multiple times just exasperates how long some of the methods take on larger arrays.
+
+**Link(s) to Work**
+
+1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
+2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
