@@ -437,3 +437,26 @@ There is still more work to do to make the whole system actually performant.  Ru
 
 1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
 2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
+
+### Day 19: January 28, Monday
+
+**Today's Progress**
+
+- Created a new React app for a new version of remove-array-duplicates-test.
+- Added `react-bootstrap` and `bootstrap` to simplify layout and add additional fanciness
+- Created a starting `ConfigureTestForm` component and added to `App`
+
+**Thoughts**
+
+First off, pay no attention to the gap between Day 18 and Day 19.  You saw nothing (which is the problem, I guess).
+
+I'm still tinkerng with this performance test app, trying out different methods of gathering and presenting the results.  I've been kind of leaning towards wanting to have it gather several trials over time and present averages.  I'm thinking about using the Local Storage API to persist trial results between sessions.
+
+But this still left me wondering how I wanted to address presenting the information.  So, I finally bit the React bullet and decided to use this project as a way to play around with it.  And since I was on the framework path, I decided to pull in Bootstrap for layout and UI components.
+
+One night in, I have a pretty nice looking form!  (I swear, I'll return to the Asteroids-like game.)
+
+**Link(s) to Work**
+
+1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
+2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
