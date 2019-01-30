@@ -460,3 +460,25 @@ One night in, I have a pretty nice looking form!  (I swear, I'll return to the A
 
 1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
 2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
+
+### Day 20: January 29, Tuesday
+
+**Today's Progress**
+
+- Implemented form state for `ConfigureTestForm` component
+- Implemented raising state from `ConfigureTestForm` when "Run Test(s)" button is pressed
+- Added `TestResults` component for displaying test results
+- Added testing behavior for "running a test" to verify `TestResults` component updates
+
+**Thoughts**
+
+I think I spent too much time reading the "Getting Started" React example, which handles raising state different than the documentation on React forms.  The example uses a lot of arrow functions directly in `render()`, but the React forms documentation instead uses binding various "handle" methods bound to `this`.  This had me second guessing myself while trying to implement the behavior for `ConfigureTestForm`.
+
+For what I'm doing in `ConfigureTestForm`, it makes sense for it to maintain its state internally rather than pulling form values from its properties.  Instead of passing value changes up and passing up the `onSubmit` trigger, the form keeps track of its values internally and just calls its `onRunTests` property with the values when the "Run Test(s)" button is pressed.  This felt more in line with `ConfigureTestForm`'s purpose.
+
+Figuring out how lists in `render` works in React was "fun"...  It's not difficult, just strange.  I really wasn't used to having to provide a key for each item, because I'm not trying to look up the information later.  In hindsight, however, I realize it's so the React DOM can recognize which rows are being updated so it doesn't have to rebuild the entire list if only one or two items change from on `render` and the next.
+
+**Link(s) to Work**
+
+1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
+2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
