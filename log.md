@@ -482,3 +482,24 @@ Figuring out how lists in `render` works in React was "fun"...  It's not difficu
 
 1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
 2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
+
+### Day 21: January 31, Thursday
+
+**Today's Progress**
+
+- Added `timeExecution(func)(input)` to... welll... time the execution of a function.
+- Added `createRandomArray(maxUniqueValues)(size)` to generate source arrays to run tests on.
+- Added `tests` array to the `App` state, holding the tests and their results
+- Updated `runTests` to read `tests` and write execution times to their results rather than the single `results` state
+- Updated `App` to render a `TestResults` component for each `test`
+
+**Thoughts**
+
+I considered trying out React Redux for the state since I'm getting more complex with it.  I decided against it for tonight for simplicity in getting going - I'm new to Redux (let along React Redux).  I didn't want to not be sure if my mistakes were due to the logic of the tests or just not knowing what I'm doing with Redux.  I can cross that bridge tomorrow (maybe).
+
+Oh!  But the updates work!  Wooo!
+
+**Link(s) to Work**
+
+1. [remove-array-duplicates-test](https://github.com/BillRobitskeJr/remove-array-duplicates-test)
+2. [Performance Tests for Removing Duplicates from an Array](https://billrobitskejr.github.io/remove-array-duplicates-test/)
